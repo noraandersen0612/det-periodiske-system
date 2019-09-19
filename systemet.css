@@ -1,0 +1,77 @@
+body{
+  background-color: lightgrey;
+}
+
+div{
+  background-color:
+}
+.systemet{
+  display:grid;
+  grid-template-columns: repeat(18,1fr);
+  grid-gap: 5px;
+}
+.systemet2{
+  display: grid;
+  grid-template-columns: repeat(15,1fr);
+  grid-gap: 5px;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 50px;
+}
+.span-6{
+  grid-column: span 16;
+}
+.span-10{
+  grid-column: span 10;
+}
+.usynlig{
+  opacity: 0;
+}
+.grunnstoff{
+  border-style: solid;
+  border-radius: 7px;
+  border-width: 4px;
+  border-color: #967777;
+}
+.tall,.navn{
+  text-align: center;
+}
+.tall{
+  font-size:19px;
+}
+.navn{
+  font-size: 24px;
+}
+.rod{
+  background-color: #cf4848
+}
+.blaa{
+  background-color: #3c6a9e;
+}
+.lilla{
+  background-color:#984ea3;
+}
+.morkerosa{
+  background-color: #a31c69;
+}
+.lysegul{
+  background-color: #dbd16e;
+}
+.gronn{
+  background-color: #529e42;
+}
+.morkegronn{
+  background-color: #2e6622;
+}
+.gul{
+  background-color: #e0dd1f;
+}
+.lyserosa{
+  background-color: #d998b9;
+}
+.gra{
+  background-color: #948a8f;
+}
+.lysegronn{
+  background-color: #84b581;
+}

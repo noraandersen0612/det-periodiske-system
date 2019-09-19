@@ -1,0 +1,51 @@
+/*tag-selektorer*/
+body{
+  background-color: lightgrey;
+
+}
+header{
+  background-color: lightblue;
+}
+h1{
+  font-size:64px;
+  font-family: inherit;
+  width: 300px;
+  text-align: center;
+}
+/*id*/
+#mainoverskrift{
+  font-size: 30px;
+  font-family: inherit;
+}
+#forsteavsnitt{
+  background-color: pink;
+}
+/*klasse*/
+.gronnAvsnitt{
+  background-color: lightgreen;
+}
+
+/*pseudorselektorer */
+p::first-letter{
+  font-size: 32px;
+}
+p::first-line{
+  text-decoration: underline;
+}
+p::after{
+  content: "dette var et fint avsnitt";
+}
+/*pseudorklasser*/
+h1:hover{
+  background-color: white;
+  color: black;
+  transform: scale(1.5);
+  box-shadow: orange 20px 7px;
+}
+/*kombinasjon av selektorer*/
+ul li{
+ list-style-type: none;
+}
+#uten li{ /*alle listepunker inni id uten*/
+  list-style-type: none;
+}

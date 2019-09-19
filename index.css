@@ -1,0 +1,22 @@
+body{
+  margin:0px; /*fjerner marg rundt nettsiden*/
+  font-family: inherit; /*skriftfont på hele nettsiden*/
+  font
+}
+
+nav{
+background-color: #8f8f8f; /*velger bakgrunnsfarge på nav baren*/
+display: flex; /*gjør navbaren til en flexboks*/
+padding-bottom:0px}
+nav a{ /*velger alle a-elementer inne i nav*/
+  color: white; /*velger skriftfarge på lenkene*/
+  text-decoration: none; /*fjerner understreker*/
+  padding: 25px; /*lager 25px med luft mellom lenkene*/
+  font-size: 26px;
+}
+nav .active{ /*velger klassen active inne i nav*/
+  background-color:#616161; /*setter bakgrunnsfarge på elemenetet som er active, det du er inne på*/
+}
+nav a:hover:not(.active){ /*velger nav elementer som musen er over, utenom hjem, siden du er på*/
+  background-color: #a14f4f; /*farge*/
+}
